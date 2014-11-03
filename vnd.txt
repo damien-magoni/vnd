@@ -1,0 +1,15 @@
+
+# vnd sample command file
+
+debug on
+mode hub
+add i1 nic raw
+insr e1 raw tcp 127.0.0.1 2001 ? ?
+bind e1 i1
+add i2 nic raw
+insr e2 raw tcp 127.0.0.1 2002 ? ?
+bind e2 i2
+trace all txt console
+show if
+show ep
+
