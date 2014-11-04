@@ -14,7 +14,9 @@ separately on its input and output queues
 It uses some of the Boost libs, OpenSSH libs and the libvdeplug.
 See the manual for more information.
 If you want to build complex virtual networks, please use NEmu (http://nemu.valab.net/) which internally uses vnd.
+
 If you use either vnd or NEmu for your research or educational work, please cite:
+
     Network Emulator: a Network Virtualization Testbed for Overlay Experimentations.
     Vincent Autefage, Damien Magoni.
     CAMAD'12 - IEEE International Workshop on Computer-Aided Modeling Analysis and 
