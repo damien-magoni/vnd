@@ -1,7 +1,7 @@
 vnd
 ===
 
-The vnd (Virtual Network Device) is a program for emulating network devices.
+The Virtual Network Device (vnd) is a program for emulating network devices.
 It can be used to interconnect virtual machines running on emulators (QEMU, Dynamips, etc) 
 that support the same backends.
 
